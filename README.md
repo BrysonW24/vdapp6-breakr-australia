@@ -2,10 +2,11 @@
   <img src="assets/icon.png" width="120" alt="BREAKR Logo">
 </p>
 
-<h1 align="center">🎱 BREAKR Australia</h1>
+<h1 align="center">BREAKR Australia</h1>
 
 <p align="center">
-  <strong>Connect. Compete. Conquer the Table.</strong>
+  <strong>Connect. Compete. Conquer the Table.</strong><br>
+  <sub>The social network for Australia's pool and billiards community.</sub>
 </p>
 
 <p align="center">
@@ -17,40 +18,44 @@
 
 ---
 
-## 📱 About
+## The Problem
 
-**BREAKR** is the ultimate social platform for pool and billiards enthusiasts in Australia. Find venues, match with players, track your stats, and level up your game.
+Finding a decent game of pool shouldn't be this hard. Where are the tables? Who's playing at your level? When's the next tournament?
 
-### ✨ Key Features
-
-- 🎱 **Find Venues** - Discover pool halls and pubs with tables near you
-- 👥 **Match Players** - Connect with players at your skill level
-- 📊 **Track Stats** - Monitor your wins, losses, and ranking
-- 🏆 **Competitions** - Join local tournaments and leagues
-- 📚 **Learn** - Access tutorials and improve your technique
-- 👥 **Community** - Share posts, follow players, join groups
+**BREAKR** brings Australia's scattered pool community into one place - find venues, match with players, track your progress, and compete in local leagues.
 
 ---
 
-## 🚀 Quick Start
+## What You Get
+
+| Feature | Description |
+|---------|-------------|
+| **Find Venues** | Discover pool halls and pubs with tables near you |
+| **Match Players** | Connect with players at your skill level |
+| **Track Stats** | Monitor wins, losses, and your rising rank |
+| **Competitions** | Join local tournaments and leagues |
+| **Learn** | Access tutorials to sharpen your game |
+| **Community** | Follow players, share posts, join groups |
+
+---
+
+## Quick Start
 
 ```bash
 # Install dependencies
 npm install
 
-# Start the development server
+# Start Expo dev server
 npx expo start
 
-# Run on iOS Simulator
+# Run on simulators
 npm run ios
-
-# Run on Android Emulator
 npm run android
 ```
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -62,23 +67,34 @@ npm run android
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
 ├── components/     # Reusable UI components
-├── navigation/     # Navigation configuration
+├── navigation/     # Navigation config
 ├── screens/        # App screens
 ├── services/       # API & business logic
 ├── store/          # Redux store & slices
-├── theme/          # Colors, typography, spacing
+├── theme/          # Colors, typography
 ├── types/          # TypeScript definitions
-└── utils/          # Helper functions
+└── utils/          # Helpers
 ```
 
 ---
 
-## 📦 App Info
+## Design
+
+Dark theme with emerald green (#10B981) accents:
+
+- Gradient backgrounds
+- Card-based layouts
+- Skill level badges
+- Social feed with interactions
+
+---
+
+## App Info
 
 | Key | Value |
 |-----|-------|
@@ -88,35 +104,25 @@ src/
 
 ---
 
-## 🎨 Design
-
-Dark theme with emerald green (#10B981) as the primary accent color:
-
-- Gradient backgrounds
-- Card-based layouts
-- Skill level badges
-- Social feed with interactions
-
----
-
-## 📱 App Store Deployment
+## Deployment
 
 ```bash
-# Build for iOS
+# Build for production
 eas build -p ios --profile production
+eas build -p android --profile production
 
-# Submit to App Store
-eas submit -p ios --profile production
+# Submit to stores
+eas submit -p ios
+eas submit -p android
 ```
 
 ---
 
-## 📄 License
-
-Proprietary - © 2025 Vivacity Digital
-
----
+<p align="center">
+  <strong>Built by Vivacity Digital</strong><br>
+  <a href="https://vivacitydigital.com.au">vivacitydigital.com.au</a>
+</p>
 
 <p align="center">
-  <strong>Built with 🎱 by Vivacity Digital</strong>
+  <sub>2025 Vivacity Digital. All rights reserved.</sub>
 </p>
